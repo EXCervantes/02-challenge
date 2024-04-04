@@ -10,7 +10,7 @@ HTML for this project was modified to contain semantic elements appropriate to e
 
 The CSS has been optimized to remove the clutter of redundant code and organized to be more neat. Comments have been added to the CSS to specify what certain functions in the stylesheet need to do.
 
-[Link to deployed application.](https://excervantes.github.io/02-challenge/)
+[Link to deployed application.](https://excervantes.github.io/horiseon-webpage-challenge-1/)
 
 ## Installation
 
