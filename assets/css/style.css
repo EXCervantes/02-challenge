@@ -4,6 +4,20 @@
     margin: 0;
 }
 
+/* ======================================
+   Body Elements and Header
+   ====================================== */
+
+/**  
+ * Background color is to be a pale white hue to blend and make page elements stand out.
+ *
+ * Header will contain the company name and navigation links.
+ *
+ * The "seo" in the company name "Horiseon" must be the specified color and aligned opposite of the navigation menu horizontally.
+ *
+ * Navigation links are to be aligned to the right and inline within the Header without link underlining. 
+ **/  
+
 body {
     background-color: #d9dcd6;
 }
@@ -50,6 +64,24 @@ p {
     font-size: 16px;
 }
 
+/* ======================================
+   Image Properties
+   ====================================== */
+
+/**  
+ * "Hero" Image Covering most of the body of the page.
+ 
+ * The "hero" class creates the formatting for the background image for the majority of the page titled "digital-marketing-meeting.jpg"
+ * which is defined with an "img src" tag to allow for the addition of alt text for the background picture.
+ **/   
+
+/** 
+ * Floating images
+
+ * Define whether images contained within the "card" class will be on the left or right of text in each box under the main tag.
+ * Whether left or right positioning a value of 25 pixels will keep the page looking uniform in this area.
+**/ 
+
 .hero {
     height: 800px;
     width: 100%;
@@ -74,16 +106,65 @@ p {
     margin-left: 25px;
 }
 
+/* ======================================
+   Content Under Main Tag
+   ====================================== */
+
+/**  
+ * Properties for the content inside the Main tag.
+ 
+ * "Content" class will display 75% of the content area width at margin left at 20px to allow spacing from surrounding elements and is
+ * inline for a more organized appearance.
+ * 
+ * "Card" class will define formatting properties such as bottom margin, padding, and height for ease of reading content contained within.
+ * Appearance properties such the font family, background color, and color will make the text flow easier with the general color theme and
+ * professional business feel of the page.
+ * Additional formatting options under "Card" class found with the child elements "img" and "h2" continue to give a sense of flow within these
+ * elements under the Main tag.
+ **/ 
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.card {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff; 
+ }
+
+ .card img {
+    max-height: 200px;
+} 
+
+ .card h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}    
+
+/* ======================================
+   Content Under Aside Tag
+   ====================================== */
+
+/**  
+ * Formatting for the content inside the box contained under the Aside tag.
+ 
+ * "Benefits" class has the necessary properties to make this box readable, flow with the page well, and appear neatly off to the side of the page.
+ * A brighter hue of blue is applied here to catch the user's attention to fundamentals of the company as the read along the rest of the page.
+ * 
+ * The Section tag adds formatting to keep each fundamental value spaced nicely along with a bright font color to help them standout.
+ * Both the "img" and "h3" child elements of Section contain formatting to center the names of and images representing the fundamental values
+ * as well as formatting to keep things neatly organized.
+ **/   
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
     width: 20%;
     height: 100%;
@@ -107,23 +188,13 @@ p {
     max-width: 150px;
 }
 
-.card {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff; 
- }
+/* ======================================
+   Footer
+   ====================================== */
 
- .card img {
-    max-height: 200px;
-} 
-
- .card h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}     
+/**  
+ * Text is centered with author information and company copyright information just below that in a smaller font.
+ **/  
 
 .footer {
     padding: 30px;
